@@ -1,32 +1,13 @@
 <?php
-<<<<<<< HEAD
 namespace source\Models;
 require_once __DIR__ . "/../User.php";
 
-=======
-namespace Source\Models\Hospital;
-require_once __DIR__ . "/../User.php";
-Use User;
->>>>>>> 348ded57c989eeedc3a03f9dcbe61f5c20836a27
 class Doctor extends User
 {
     private string $crm;
     private string $specialty;
 
-<<<<<<< HEAD
     public function __construct(int $id,int $idType,string $name,string $email,string $password,string $photo,string $crm,string $specialty)
-=======
-    public function __construct(
-        int $id,
-        int $idType,
-        string $name,
-        string $email,
-        string $password,
-        string $photo,
-        string $crm,
-        string $specialty
-    )
->>>>>>> 348ded57c989eeedc3a03f9dcbe61f5c20836a27
     {
         parent::__construct($id, $idType, $name, $email, $password, $photo);
 

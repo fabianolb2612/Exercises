@@ -1,9 +1,5 @@
 <?php
-<<<<<<< HEAD
 namespace source\Models;
-=======
-
->>>>>>> 348ded57c989eeedc3a03f9dcbe61f5c20836a27
 class User
 {
     private $id;

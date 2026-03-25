@@ -6,18 +6,8 @@ class Wizard extends Character
 {
     private float $intelligence;
 
-<<<<<<< HEAD
     public function __construct(string $name,float $life,float $mana,float $strength,float $intelligence)
     {
-=======
-    public function __construct(
-        string $name,
-        float $life,
-        float $mana,
-        float $strength,
-        float $intelligence
-    ) {
->>>>>>> 348ded57c989eeedc3a03f9dcbe61f5c20836a27
         parent::__construct($name, $life, $mana, $strength);
         $this->intelligence = $intelligence;
     }
