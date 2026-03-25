@@ -7,7 +7,20 @@ class Patient extends User
     private string $birthDate;
     private string $medicalRecord;
 
+<<<<<<< HEAD
     public function __construct(int $id,int $idType,string $name,string $email,string $password,string $photo,string $birthDate,string $medicalRecord)
+=======
+    public function __construct(
+        int $id,
+        int $idType,
+        string $name,
+        string $email,
+        string $password,
+        string $photo,
+        string $birthDate,
+        string $medicalRecord
+    )
+>>>>>>> 348ded57c989eeedc3a03f9dcbe61f5c20836a27
     {
         parent::__construct($id, $idType, $name, $email, $password, $photo);
 
